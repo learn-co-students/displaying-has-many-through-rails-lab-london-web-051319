@@ -1,0 +1,4 @@
+<%= link_to "Doctor: #{@appointment.doctor.name}", doctor_path(@appointment.doctor) %><br>
+<%= link_to "Patient: #{@appointment.patient.name}", patient_path(@appointment.patient) %><br>
+<%= link_to "Date and Time: #{@appointment.readable}"%>
+    
